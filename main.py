@@ -709,7 +709,7 @@ class HistoryScreen(Screen):
 
 class PriceComparisonApp(App):
     def build(self):
-        self.title = "Price Comparison"
+        self.title = "Price Comparison App"
         self.db = DatabaseManager()
         
         # Create screen manager
